@@ -45,8 +45,7 @@
   (map! :g "C-c C-SPC" 'ace-jump-mode-pop-mark)
   )
 
-(use-package! telephone-line
-  :config (telephone-line-mode)
-  )
-
 (setq uniquify-buffer-name-style 'forward)
+
+;; May fix crashes with which-key associated with modeline
+(setq which-key-allow-imprecise-window-fit t)
