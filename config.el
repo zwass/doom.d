@@ -25,7 +25,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. These are the defaults.
-(setq doom-theme 'doom-material)
+(setq doom-theme 'doom-one)
 
 ;; If you intend to use org, it is recommended you change this!
 (setq org-directory "~/org/")
@@ -44,3 +44,9 @@
   (map! :g "C-c SPC" 'ace-jump-mode)
   (map! :g "C-c C-SPC" 'ace-jump-mode-pop-mark)
   )
+
+(use-package! telephone-line
+  :config (telephone-line-mode)
+  )
+
+(setq uniquify-buffer-name-style 'forward)

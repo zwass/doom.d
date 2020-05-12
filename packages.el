@@ -54,3 +54,7 @@
 ;; (package! which-key :disable t)
 
 (package! ace-jump-mode)
+
+(package! telephone-line)
+
+(package! doom-modeline)
