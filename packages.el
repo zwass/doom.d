@@ -58,3 +58,7 @@
 (package! telephone-line)
 
 (package! doom-modeline)
+
+(package! jest)
+
+(package! terraform-mode)
